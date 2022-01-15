@@ -24,3 +24,14 @@ Is a structure with the permitted movements between nodes. E.g.
   d: [],
 }
 ```
+
+## Algorithms
+
+### 1. Depth first traversal and Braedth first traversal.
+
+Both algorithms are quite similar in the implementation. In the behavior they differ a lot though.
+The only implementation difference is that Breadth first uses a **queue** (first in, first out). While Depth first uses a **stack** (first in, last out).
+
+Regarding the behavior, Breadth first traverses the graph starting with the closest points. Depth first goes one path at a time, until it reaches the end, then starts with another path.
+
+![image info](./images/BFS-DFS.png)
