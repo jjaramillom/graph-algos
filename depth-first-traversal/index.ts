@@ -14,9 +14,8 @@ function depthFirstPrint(graph: Graph, source: string): void {
 
   while (stack.length) {
     const current = stack.pop();
-    if (graph[current].length) {
-      stack.push(...graph[current]);
-    }
+
+    stack.push(...graph[current]);
     console.log(current);
   }
 }
@@ -26,9 +25,8 @@ function breadthFirstPrint(graph: Graph, source: string): void {
 
   while (queue.length) {
     const current = queue.shift();
-    if (graph[current].length) {
-      queue.push(...graph[current]);
-    }
+
+    queue.push(...graph[current]);
     console.log(current);
   }
 }
