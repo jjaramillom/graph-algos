@@ -1,6 +1,3 @@
-type Graph = Record<string, string[]>;
-type Edge = [string, string];
-
 const edges: Edge[] = [
   ['i', 'j'],
   ['k', 'i'],

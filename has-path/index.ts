@@ -1,5 +1,3 @@
-type Graph = Record<string, string[]>;
-
 const graph: Graph = {
   a: ['b', 'c'],
   b: ['d'],
