@@ -31,3 +31,6 @@ function breadthFirstPrint(graph: Graph, source: string): void {
 
 depthFirstPrint(graph, 'a');
 breadthFirstPrint(graph, 'a');
+
+// Add this to declare this file as module (own scope)
+export {};

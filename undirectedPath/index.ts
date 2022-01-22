@@ -60,3 +60,6 @@ function undirectedPath(edges: Edge[], src: string, dst: string) {
 }
 
 console.log(undirectedPath(edges, 'i', 'k'));
+
+// Add this to declare this file as module (own scope)
+export {};

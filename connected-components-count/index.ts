@@ -32,3 +32,6 @@ function explore(graph: Graph, current: string, visitedNodes: Set<string>): bool
 }
 
 connectedComponentsCount(graph);
+
+// Add this to declare this file as module (own scope)
+export {};

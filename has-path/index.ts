@@ -35,3 +35,6 @@ function hasPathBreadth(graph: Graph, src: string, dst: string) {
   }
   return false;
 }
+
+// Add this to declare this file as module (own scope)
+export {};
